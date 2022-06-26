@@ -22,10 +22,7 @@ if (operator == "+") {
     alert(firstNumber / secondNumber)
 } else if(operator=="*"){
     alert(firstNumber * secondNumber)
-} else if(typeof firstNumber != 'number') {
-    alert("Your second input is not a number")
-}else if(typeof secondNumber != 'number') {
-    alert("Your second input is not a number")
-} else {
+}
+ else {
     alert("Invalid operator")
 }
